@@ -31,6 +31,6 @@ public class User {
   @DateTimeFormat(pattern = "yyyy-MM-dd")
   private Date birthDate;
 
-  @OneToMany(mappedBy = "author")
-  private List<Blog> blogs;
+//  @OneToMany(mappedBy = "author")
+//  private List<Blog> blogs;
 }
